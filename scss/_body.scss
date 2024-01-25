@@ -1,0 +1,116 @@
+/*BODY, DIV, SECTOR, MAIN*/
+
+.sobreNosotrosUbicacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: $color-verde;
+  }
+  
+  .inicioColumnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: $fuente-texto;
+    color: $color-verde;
+    padding: 150px;
+  }
+
+  .botonProductos {
+    background-color: $color-rosita-clarito;
+    padding: 9px 25px;
+    border-radius: 50px;
+  }
+
+  .botonProductos:hover {
+    background-color: $color-rosita;
+    padding: 9px 25px;
+    border-radius: 50px;
+  }
+  
+  .columnaIzq {
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .textoPequeño {
+    font-size: 14px;
+  }
+
+  .dobleFila {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+  }
+  
+  .pequeña {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .pequeña2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .alejarImg {
+    padding-left: 125px;
+  }
+  
+  .cajaFormulario {
+    background-color: $color-rosita;
+    width: 300px;
+    display: block;
+    flex-direction: column;
+    border: 3px $color-verde dashed;
+    margin: 100px;
+    color: $color-verde;
+    padding: 15px;
+    align-content: center;
+    text-align: start;
+  }
+  
+  .botonEnviar {
+    display: inline;
+    align-content: center;
+    color: $color-verde;
+    width: 265px;
+  }
+  
+  .anchoInput {
+    width: 230px;
+  }
+  
+  .anchoInput2 {
+    width: 226px;
+  }
+  
+  .anchoInput3 {
+    width: 244px;
+  }
+  
+  .anchoInput4 {
+    width: 287px;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .productosColumnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: $fuente-texto;
+    color: $color-verde;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  

@@ -1,0 +1,20 @@
+/*HEADER Y LOGO DEL HEADER*/
+
+.logoLiluna {
+    width: 220px;
+    height: 80px;
+  }
+  
+  header {
+    background-color: $color-rosita;
+    position: sticky;
+    top: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $color-verde-nav;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $fuente-texto;
+  }

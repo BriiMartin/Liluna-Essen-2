@@ -1,0 +1,48 @@
+/*BANNERS DE HTMLS*/
+
+.bannerInicio {
+    background-image: url(../img/banner-sartenes.jpg);
+    @include banner-flex-column-center;
+    color: $color-verde;
+    font-family: $fuente-texto;
+    padding: 130px;
+  }
+  
+  .botonBanner {
+    background-color: $color-rosita;
+    padding: 9px 25px;
+    border-radius: 50px;
+  }
+  
+  .bannerProductos {
+    background-image: url(../img/banner-productos.jpg);
+    @include banner-flex-column-center;
+    color: $color-verde;
+    font-family: $fuente-texto;
+    padding: 110px;
+  }
+  
+  .bannerOfertas {
+    background-image: url(../img/banner-ofertas.jpg);
+    @include banner-flex-column-center;
+    color: $color-verde;
+    font-family: $fuente-texto;
+    padding: 110px;
+  }
+  
+  .bannerPlanCanje {
+    background-image: url(../img/banner-plan-canje.jpg);
+    @include banner-flex-column-center;
+    color: $color-verde;
+    font-family: $fuente-texto;
+    padding: 110px;
+  }
+  
+  .bannerContacto {
+    background-image: url(../img/banner-contacto.jpg);
+    @include banner-flex-column-center;
+    color: $color-verde;
+    font-family: $fuente-texto;
+    padding: 130px;
+  }
+  

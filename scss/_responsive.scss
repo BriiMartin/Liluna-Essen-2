@@ -1,0 +1,64 @@
+/*RESPONDIVE (VISTA MOVIL Y TABLET)*/
+
+@media (min-width: 300px) and (max-width: 750px) {
+    .sobreNosotrosUbicacion {
+      font-size: 80%;
+      display: block;
+      align-items: center;
+      align-content: center;
+    }
+  
+    .logoLiluna {
+      width: 160px;
+      height: 70px;
+    }
+  
+    .pequeña {
+      width: 190px;
+      height: 190px;
+    }
+  
+    .bannerInicio {
+      padding: 53px;
+    }
+  
+    .bannerPlanCanje {
+      padding: 38px;
+    }
+  
+    .bannerProductos, .bannerOfertas, .bannerContacto {
+      padding: 40px;
+    }
+  
+    .inicioColumnas {
+      padding: 30px;
+    }
+  
+    .mapaEssen {
+      width: 270px;
+      height: 140px;
+    }
+  
+    #videoEssen {
+      width: 230px;
+      height: 140px;
+    }
+  
+    .cajaFormulario {
+      background-color: $color-rosita;
+      width: 260px;
+      display: block;
+      flex-direction: column;
+      border: 3px $color-verde dashed;
+      margin: 30px;
+      color: $color-verde;
+      padding: 5px;
+      align-content: center;
+      text-align: start;
+    }
+  
+    .botonEnviar {
+      width: 245px;
+    }
+  }
+  
