@@ -16,6 +16,7 @@
     font-family: $fuente-texto;
     color: $color-verde;
     padding: 150px;
+    text-align: justify;
   }
 
   .botonProductos {
@@ -50,6 +51,7 @@
   .pequeña {
     width: 250px;
     height: 250px;
+    border-radius: 10px ;
   }
   
   .pequeña2 {
@@ -66,8 +68,9 @@
     width: 300px;
     display: block;
     flex-direction: column;
-    border: 3px $color-verde dashed;
+    border: 1px $color-verde solid;
     margin: 100px;
+    border-radius: 10px;
     color: $color-verde;
     padding: 15px;
     align-content: center;
@@ -113,4 +116,6 @@
     padding-top: 40px;
     padding-bottom: 10px;
   }
+
+
   
