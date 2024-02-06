@@ -12,8 +12,15 @@
     background-color: $color-rosita;
     padding: 9px 25px;
     border-radius: 50px;
+    transition: 0.7s;
   }
   
+  .botonBanner:hover {
+    background-color: $color-rosita-clarito;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+
   .bannerProductos {
     background-image: url(../img/banner-productos.jpg);
     @include banner-flex-column-center;
